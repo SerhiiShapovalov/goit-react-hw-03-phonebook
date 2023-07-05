@@ -17,8 +17,6 @@ class App extends Component {
 
     if (parsedContacts) {
       this.setState({ contacts: parsedContacts });
-    } else {
-      return;
     }
   }
 
